@@ -14,7 +14,7 @@ Os repositórios originais foram escritos para .NET 5, que está fora de suporte
 
 ### O que é
 
-Um teste unitário verifica de forma isolada o comportamento de uma unidade pequena de código, geralmente uma função ou método. O objetivo é garantir que, dada uma entrada conhecida, a saída produzida corresponda exatamente à esperada. Não envolve banco de dados, rede ou dependências externas — só a lógica daquela unidade.
+Um teste unitário verifica de forma isolada o comportamento de uma unidade pequena de código, geralmente uma função ou método. O objetivo é garantir que, dada uma entrada conhecida, a saída produzida corresponda exatamente à esperada. Não envolve banco de dados, rede ou dependências externas, só a lógica daquela unidade.
 
 Neste fork, o método testado é ConversorTemperatura.FahrenheitParaCelsius, que recebe uma temperatura em Fahrenheit e devolve o equivalente em Celsius arredondado para duas casas decimais. O teste usa o atributo [Theory] do xUnit com várias entradas via [InlineData], o que permite validar múltiplos pares entrada/saída com um único método de teste.
 
